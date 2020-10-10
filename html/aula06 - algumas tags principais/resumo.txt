@@ -1,0 +1,12 @@
+<h1> até <h6> - titulos
+<p> - paragrafos
+<a> - link
+    - href -  atributo de link: endereço do link
+    - target - atribute de link: como o link vai abrir
+<br> break row e <hr>
+<ul> - unordered list - lista não ordenada
+    - <li> - itém de lista
+<ol> - ordered list - lista ordenada
+    - <li> - itém de lista
+<strong> semantico e <b> - bold
+<em> semantico e <i> - italico
