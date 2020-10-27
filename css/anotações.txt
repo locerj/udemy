@@ -1,0 +1,26 @@
+aula 33 - float
+float: deixa o componente fluituando ou a direita right, ou a esquerda left
+
+o float influência no posicionamento dos componenetes a baixo dele, para limpar esse comportamento usamos o clear
+podendo usar o clear: left;
+ou o clear: right; ou o clear: both;
+
+usado overflow: auto no conteiner dos componentes que estão float, pode ajuadar a preencher o espaço do container
+
+aula 35 - position -----------------------
+
+static:(default)
+-elementos aparecer na mesma ordem do html
+
+relative:
+- so fazem sentido se usar left, rigth, top ou bottom, posicionamento relativo a posição que ele deveria estar se fosse static
+ou seja, se colocar left: 15px; ele vai se deslocar 15 px pra esquerda, mas sua posição irá se manter quardada, ou seja, outros elementosnão irão ocupar seu lugar de origem.
+
+absolut:
+- o elemento se relaciona com o elemento pai mais proximo que estja posicionado ou seja usando outro valor de position que não seja static(default).
+
+fixed:
+- relacionado a janela do browser
+
+
+z-index: posiciona o elementos um em cima do outro, empilha.
